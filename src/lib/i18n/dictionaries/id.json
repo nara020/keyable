@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "services": "Layanan",
+    "about": "Tentang Kami",
+    "faq": "FAQ",
+    "notices": "Pengumuman",
+    "inquiry": "Minta Penawaran"
+  },
+  "hero": {
+    "title": "Mitra Terpercaya untuk Perjalanan & Layanan Medis Korea",
+    "subtitle": "Tur privat premium, wisata medis, dan pengalaman personal untuk wisatawan global",
+    "cta": "Minta Konsultasi Gratis"
+  },
+  "services": {
+    "title": "Layanan Kami",
+    "subtitle": "Solusi lengkap untuk perjalanan Korea Anda",
+    "privateTour": {
+      "title": "Tur Privat",
+      "description": "Itinerari khusus dengan pemandu profesional dan kendaraan mewah"
+    },
+    "medical": {
+      "title": "Wisata Medis",
+      "description": "Pelayanan kesehatan kelas dunia di rumah sakit terakreditasi JCI"
+    },
+    "guide": {
+      "title": "Layanan Pemandu",
+      "description": "Pemandu multibahasa berlisensi untuk pengalaman Korea autentik"
+    },
+    "vehicle": {
+      "title": "Sewa Kendaraan",
+      "description": "Kendaraan premium dengan sopir profesional untuk perjalanan nyaman"
+    },
+    "learnMore": "Pelajari Lebih Lanjut"
+  },
+  "inquiry": {
+    "title": "Minta Konsultasi",
+    "subtitle": "Ceritakan rencana perjalanan Anda dan kami akan membuat proposal khusus",
+    "form": {
+      "name": "Nama Lengkap",
+      "namePlaceholder": "Masukkan nama Anda",
+      "email": "Alamat Email",
+      "emailPlaceholder": "email@anda.com",
+      "phone": "Telepon / WhatsApp",
+      "phonePlaceholder": "+62 xxx xxxx xxxx",
+      "date": "Tanggal Perjalanan yang Diinginkan",
+      "guests": "Jumlah Tamu",
+      "guestsPlaceholder": "contoh: 2 dewasa, 1 anak",
+      "budget": "Kisaran Anggaran",
+      "budgetOptions": {
+        "select": "Pilih kisaran anggaran",
+        "economy": "Ekonomi ($1.000 - $3.000)",
+        "standard": "Standar ($3.000 - $7.000)",
+        "premium": "Premium ($7.000 - $15.000)",
+        "luxury": "Mewah ($15.000+)"
+      },
+      "service": "Jenis Layanan",
+      "serviceOptions": {
+        "select": "Pilih jenis layanan",
+        "privateTour": "Tur Privat",
+        "medical": "Wisata Medis",
+        "guide": "Layanan Pemandu",
+        "vehicle": "Sewa Kendaraan",
+        "custom": "Paket Khusus"
+      },
+      "details": "Ceritakan tentang perjalanan Anda",
+      "detailsPlaceholder": "Bagikan tujuan perjalanan, minat, kebutuhan khusus...",
+      "submit": "Kirim Permintaan",
+      "submitting": "Mengirim..."
+    },
+    "complete": {
+      "title": "Terima Kasih!",
+      "message": "Permintaan Anda telah diterima. Tim kami akan menghubungi Anda dalam 24 jam.",
+      "contact": "Untuk pertanyaan mendesak:",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "backHome": "Kembali ke Beranda"
+    }
+  },
+  "about": {
+    "title": "Tentang Keyable Korea",
+    "subtitle": "Mitra terpercaya Anda untuk pengalaman Korea premium",
+    "story": {
+      "title": "Cerita Kami",
+      "content": "Didirikan di Seoul, Keyable Korea mengkhususkan diri dalam menciptakan pengalaman tak terlupakan bagi pengunjung internasional. Kami menggabungkan keahlian lokal dengan standar layanan global untuk memberikan solusi perjalanan dan wisata medis yang dipersonalisasi."
+    },
+    "mission": {
+      "title": "Misi Kami",
+      "content": "Membuat Korea mudah diakses dan menyenangkan bagi wisatawan di seluruh dunia, menyediakan pengalaman yang mulus, aman, dan berkesan melalui layanan personal dan keahlian lokal."
+    },
+    "values": {
+      "title": "Nilai Kami",
+      "trust": "Kepercayaan & Transparansi",
+      "quality": "Layanan Berkualitas",
+      "personal": "Perhatian Personal",
+      "local": "Keahlian Lokal"
+    },
+    "stats": {
+      "years": "Tahun Pengalaman",
+      "clients": "Klien Bahagia",
+      "tours": "Tur Selesai",
+      "rating": "Tingkat Kepuasan"
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "subtitle": "Temukan jawaban untuk pertanyaan umum tentang layanan kami",
+    "questions": {
+      "q1": "Area mana saja di Korea yang Anda layani?",
+      "a1": "Kami melayani semua destinasi utama termasuk Seoul, Busan, Pulau Jeju, Gyeongju, dan area pedesaan. Itinerari khusus dapat mencakup lokasi mana pun di Korea Selatan.",
+      "q2": "Apakah Anda menawarkan paket wisata medis?",
+      "a2": "Ya, kami bermitra dengan rumah sakit dan klinik terakreditasi JCI untuk berbagai prosedur termasuk pemeriksaan kesehatan, operasi kosmetik, perawatan gigi, dan perawatan khusus. Semua paket termasuk penerjemahan medis dan dukungan pasca-prosedur.",
+      "q3": "Bahasa apa yang dikuasai pemandu Anda?",
+      "a3": "Pemandu berlisensi kami fasih dalam bahasa Inggris, Indonesia, Korea, dan bahasa lainnya berdasarkan permintaan. Kami memastikan komunikasi yang jelas sepanjang perjalanan Anda.",
+      "q4": "Bagaimana cara memesan tur atau layanan?",
+      "a4": "Cukup isi formulir permintaan kami dengan preferensi dan tanggal perjalanan Anda. Tim kami akan menghubungi Anda dalam 24 jam dengan proposal dan penawaran yang disesuaikan.",
+      "q5": "Metode pembayaran apa yang Anda terima?",
+      "a5": "Kami menerima transfer bank internasional, kartu kredit (Visa, Mastercard), dan PayPal. Deposit diperlukan untuk mengkonfirmasi pemesanan, dengan sisa pembayaran sebelum kedatangan.",
+      "q6": "Bisakah Anda membantu dengan persyaratan visa?",
+      "a6": "Ya, kami memberikan panduan tentang persyaratan visa dan dapat menerbitkan surat undangan untuk tujuan wisata medis. Kebijakan visa bervariasi berdasarkan kewarganegaraan, jadi kami akan memberikan saran berdasarkan situasi spesifik Anda."
+    }
+  },
+  "notices": {
+    "title": "Pengumuman & Pembaruan",
+    "subtitle": "Berita dan pengumuman terbaru dari Keyable Korea",
+    "readMore": "Baca Selengkapnya",
+    "backToList": "Kembali ke Pengumuman"
+  },
+  "footer": {
+    "company": "Keyable Korea",
+    "tagline": "Gerbang Anda ke Korea",
+    "contact": "Hubungi Kami",
+    "quickLinks": "Tautan Cepat",
+    "followUs": "Ikuti Kami",
+    "rights": "Hak cipta dilindungi.",
+    "license": "Agen Perjalanan Korea Berlisensi"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "retry": "Coba Lagi",
+    "back": "Kembali"
+  }
+}

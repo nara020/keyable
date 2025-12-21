@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "faq": "FAQ",
+    "notices": "Notices",
+    "inquiry": "Get a Quote"
+  },
+  "hero": {
+    "title": "Your Trusted Partner for Korea Travel & Medical Services",
+    "subtitle": "Premium private tours, medical tourism, and personalized experiences for global travelers",
+    "cta": "Request a Free Consultation"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for your Korea journey",
+    "privateTour": {
+      "title": "Private Tours",
+      "description": "Customized itineraries with professional guides and luxury vehicles"
+    },
+    "medical": {
+      "title": "Medical Tourism",
+      "description": "World-class healthcare at JCI-accredited hospitals with full support"
+    },
+    "guide": {
+      "title": "Guide Services",
+      "description": "Licensed multilingual guides for authentic Korean experiences"
+    },
+    "vehicle": {
+      "title": "Vehicle Rental",
+      "description": "Premium vehicles with professional drivers for comfortable travel"
+    },
+    "learnMore": "Learn More"
+  },
+  "inquiry": {
+    "title": "Request a Consultation",
+    "subtitle": "Tell us about your travel plans and we'll create a personalized proposal",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone / WhatsApp",
+      "phonePlaceholder": "+62 xxx xxxx xxxx",
+      "date": "Preferred Travel Date",
+      "guests": "Number of Guests",
+      "guestsPlaceholder": "e.g., 2 adults, 1 child",
+      "budget": "Budget Range",
+      "budgetOptions": {
+        "select": "Select budget range",
+        "economy": "Economy ($1,000 - $3,000)",
+        "standard": "Standard ($3,000 - $7,000)",
+        "premium": "Premium ($7,000 - $15,000)",
+        "luxury": "Luxury ($15,000+)"
+      },
+      "service": "Service Type",
+      "serviceOptions": {
+        "select": "Select service type",
+        "privateTour": "Private Tour",
+        "medical": "Medical Tourism",
+        "guide": "Guide Service",
+        "vehicle": "Vehicle Rental",
+        "custom": "Custom Package"
+      },
+      "details": "Tell us about your trip",
+      "detailsPlaceholder": "Share your travel goals, interests, special requirements...",
+      "submit": "Submit Inquiry",
+      "submitting": "Submitting..."
+    },
+    "complete": {
+      "title": "Thank You!",
+      "message": "Your inquiry has been received. Our team will contact you within 24 hours.",
+      "contact": "For urgent inquiries:",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "backHome": "Back to Home"
+    }
+  },
+  "about": {
+    "title": "About Keyable Korea",
+    "subtitle": "Your trusted partner for premium Korea experiences",
+    "story": {
+      "title": "Our Story",
+      "content": "Founded in Seoul, Keyable Korea specializes in creating unforgettable experiences for international visitors. We combine local expertise with global service standards to deliver personalized travel and medical tourism solutions."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To make Korea accessible and enjoyable for travelers worldwide, providing seamless, safe, and memorable experiences through personalized service and local expertise."
+    },
+    "values": {
+      "title": "Our Values",
+      "trust": "Trust & Transparency",
+      "quality": "Quality Service",
+      "personal": "Personalized Care",
+      "local": "Local Expertise"
+    },
+    "stats": {
+      "years": "Years Experience",
+      "clients": "Happy Clients",
+      "tours": "Tours Completed",
+      "rating": "Satisfaction Rate"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our services",
+    "questions": {
+      "q1": "What areas in Korea do you cover?",
+      "a1": "We cover all major destinations including Seoul, Busan, Jeju Island, Gyeongju, and rural areas. Custom itineraries can include any location in South Korea.",
+      "q2": "Do you offer medical tourism packages?",
+      "a2": "Yes, we partner with JCI-accredited hospitals and clinics for various procedures including health checkups, cosmetic surgery, dental care, and specialized treatments. All packages include medical interpretation and post-procedure support.",
+      "q3": "What languages do your guides speak?",
+      "a3": "Our licensed guides are fluent in English, Indonesian (Bahasa), Korean, and other languages upon request. We ensure clear communication throughout your journey.",
+      "q4": "How do I book a tour or service?",
+      "a4": "Simply fill out our inquiry form with your preferences and travel dates. Our team will contact you within 24 hours with a customized proposal and quote.",
+      "q5": "What payment methods do you accept?",
+      "a5": "We accept international bank transfers, credit cards (Visa, Mastercard), and PayPal. A deposit is required to confirm bookings, with the balance due before arrival.",
+      "q6": "Can you help with visa requirements?",
+      "a6": "Yes, we provide guidance on visa requirements and can issue invitation letters for medical tourism purposes. Visa policies vary by nationality, so we'll advise based on your specific situation."
+    }
+  },
+  "notices": {
+    "title": "Notices & Updates",
+    "subtitle": "Latest news and announcements from Keyable Korea",
+    "readMore": "Read More",
+    "backToList": "Back to Notices"
+  },
+  "footer": {
+    "company": "Keyable Korea",
+    "tagline": "Your Gateway to Korea",
+    "contact": "Contact Us",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved.",
+    "license": "Licensed Korea Travel Agency"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "back": "Back"
+  }
+}
