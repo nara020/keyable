@@ -94,12 +94,24 @@
       "quality": "Quality Service",
       "personal": "Personalized Care",
       "local": "Local Expertise"
+    }
+  },
+  "trustSignals": {
+    "licensed": {
+      "title": "Licensed Agency",
+      "description": "Officially registered Korean travel agency"
     },
-    "stats": {
-      "years": "Years Experience",
-      "clients": "Happy Clients",
-      "tours": "Tours Completed",
-      "rating": "Satisfaction Rate"
+    "seoulBased": {
+      "title": "Seoul Based",
+      "description": "Local team with deep Korea knowledge"
+    },
+    "multilingual": {
+      "title": "Multilingual Team",
+      "description": "English, Indonesian & Korean speakers"
+    },
+    "personalized": {
+      "title": "Personalized Service",
+      "description": "Custom itineraries for every client"
     }
   },
   "home": {
@@ -114,11 +126,46 @@
       "vehicles": "Premium Vehicle Fleet"
     },
     "learnAbout": "Learn More About Us",
-    "premiumService": "Premium Service",
-    "since": "Since 2019",
+    "premiumService": "Your Korea Journey Starts Here",
+    "premiumServiceDesc": "Professional Service, Personal Touch",
     "readyToExplore": "Ready to Explore Korea?",
     "readyDesc": "Let us create your perfect Korean experience. Get a free consultation today.",
     "whatsappUs": "WhatsApp Us"
+  },
+  "vehicleFleet": {
+    "title": "Our Vehicle Fleet",
+    "subtitle": "Premium vehicles with professional drivers for comfortable travel throughout Korea",
+    "sedan": {
+      "title": "Premium Sedan",
+      "description": "Genesis G80, Hyundai Grandeur",
+      "capacity": "Up to 3 passengers",
+      "ideal": "Ideal for couples or small groups"
+    },
+    "suv": {
+      "title": "Premium SUV",
+      "description": "Hyundai Palisade, Kia Carnival",
+      "capacity": "Up to 6 passengers",
+      "ideal": "Perfect for families or groups with luggage"
+    },
+    "van": {
+      "title": "Luxury Van",
+      "description": "Mercedes Sprinter, Hyundai Solati",
+      "capacity": "Up to 11 passengers",
+      "ideal": "Great for larger groups or tour parties"
+    },
+    "included": {
+      "title": "All Rentals Include",
+      "driver": "Professional licensed driver",
+      "fuel": "Fuel costs included",
+      "tolls": "Toll & parking fees included",
+      "water": "Bottled water provided",
+      "insurance": "Full vehicle insurance"
+    },
+    "pricing": {
+      "title": "Pricing",
+      "description": "Rates vary based on duration and destination. Contact us for a personalized quote.",
+      "cta": "Get a Quote"
+    }
   },
   "faq": {
     "title": "Frequently Asked Questions",
@@ -206,7 +253,7 @@
     "contactUs": "Contact Us"
   },
   "aboutPage": {
-    "storyExtended": "With deep local knowledge and a passion for hospitality, we have helped thousands of travelers from Indonesia and around the world discover the beauty of Korea. From bustling Seoul to serene Jeju, from world-class medical facilities to hidden cultural gems, we make every journey memorable.",
+    "storyExtended": "With deep local knowledge and a passion for hospitality, we are dedicated to helping travelers from Indonesia and around the world discover the beauty of Korea. From bustling Seoul to serene Jeju, from world-class medical facilities to hidden cultural gems, we make every journey memorable.",
     "missionExtended": "We believe that travel should be stress-free and enriching. That's why we handle every detail—from transportation and accommodation to medical appointments and cultural experiences—so you can focus on creating lasting memories.",
     "whyUs": {
       "title": "Why Keyable Korea?",

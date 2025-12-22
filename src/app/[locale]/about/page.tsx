@@ -1,24 +1,25 @@
 import Link from 'next/link';
-import { ArrowRight, Shield, Star, Heart, MapPin } from 'lucide-react';
+import { ArrowRight, Shield, Star, Heart, MapPin, MessageCircle, UserCheck } from 'lucide-react';
 import { getDictionary } from '@/lib/i18n/getDictionary';
 import type { Locale } from '@/lib/i18n/config';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { SITE_CONFIG } from '@/lib/constants';
 
 const values = [
-  { key: 'trust', icon: Shield, color: 'bg-blue-100 text-blue-600' },
-  { key: 'quality', icon: Star, color: 'bg-amber-100 text-amber-600' },
-  { key: 'personal', icon: Heart, color: 'bg-rose-100 text-rose-600' },
-  { key: 'local', icon: MapPin, color: 'bg-emerald-100 text-emerald-600' },
+  { key: 'trust', icon: Shield, color: 'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400' },
+  { key: 'quality', icon: Star, color: 'bg-amber-100 text-amber-600 dark:bg-amber-900/30 dark:text-amber-400' },
+  { key: 'personal', icon: Heart, color: 'bg-rose-100 text-rose-600 dark:bg-rose-900/30 dark:text-rose-400' },
+  { key: 'local', icon: MapPin, color: 'bg-emerald-100 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-400' },
 ];
 
-const stats = [
-  { value: '5+', key: 'years' },
-  { value: '1000+', key: 'clients' },
-  { value: '500+', key: 'tours' },
-  { value: '98%', key: 'rating' },
-];
+const trustSignalIcons = {
+  licensed: Shield,
+  seoulBased: MapPin,
+  multilingual: MessageCircle,
+  personalized: UserCheck,
+};
+
+const trustSignalKeys = ['licensed', 'seoulBased', 'multilingual', 'personalized'] as const;
 
 export async function generateMetadata({
   params,
@@ -55,19 +56,28 @@ export default async function AboutPage({
           </p>
         </div>
 
-        {/* Stats */}
+        {/* Trust Signals - Replaced fake stats */}
         <div className="mt-16 grid grid-cols-2 gap-6 sm:grid-cols-4">
-          {stats.map((stat) => (
-            <div
-              key={stat.key}
-              className="rounded-2xl bg-gradient-to-br from-blue-50 to-cyan-50 p-6 text-center dark:from-blue-900/20 dark:to-cyan-900/20"
-            >
-              <div className="text-4xl font-bold text-blue-600">{stat.value}</div>
-              <div className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-                {dict.about.stats[stat.key as keyof typeof dict.about.stats]}
+          {trustSignalKeys.map((key) => {
+            const IconComponent = trustSignalIcons[key];
+            const signal = dict.trustSignals[key];
+            return (
+              <div
+                key={key}
+                className="rounded-2xl bg-gradient-to-br from-blue-50 to-cyan-50 p-6 text-center dark:from-blue-900/20 dark:to-cyan-900/20"
+              >
+                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900/50">
+                  <IconComponent className="h-6 w-6 text-blue-600 dark:text-blue-400" aria-hidden="true" />
+                </div>
+                <div className="text-lg font-semibold text-gray-900 dark:text-white">
+                  {signal.title}
+                </div>
+                <div className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                  {signal.description}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Story & Mission */}
@@ -109,6 +119,7 @@ export default async function AboutPage({
                   <CardContent className="p-6">
                     <div
                       className={`mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-xl ${value.color}`}
+                      aria-hidden="true"
                     >
                       <IconComponent className="h-7 w-7" />
                     </div>
