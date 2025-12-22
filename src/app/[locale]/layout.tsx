@@ -7,6 +7,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { LocalBusinessSchema } from '@/components/seo/LocalBusinessSchema';
 import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics';
+import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
 import { SITE_CONFIG } from '@/lib/constants';
 import '../globals.css';
 
@@ -136,6 +137,7 @@ export default async function LocaleLayout({
         <Header locale={locale as Locale} dict={dict} />
         <main className="min-h-[calc(100vh-4rem)]">{children}</main>
         <Footer locale={locale as Locale} dict={dict} />
+        <WhatsAppButton locale={locale} />
       </body>
     </html>
   );

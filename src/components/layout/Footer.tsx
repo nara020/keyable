@@ -14,7 +14,7 @@ export function Footer({ locale, dict }: FooterProps) {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-gray-100 bg-gray-50 dark:border-gray-800 dark:bg-gray-900">
+    <footer className="border-t border-gray-100 bg-gray-50 dark:border-gray-800 dark:bg-gray-900" role="contentinfo">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Company Info */}
@@ -44,11 +44,11 @@ export function Footer({ locale, dict }: FooterProps) {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h3 className="mb-4 text-sm font-semibold text-gray-900 dark:text-white">
+          <nav aria-labelledby="footer-quick-links">
+            <h3 id="footer-quick-links" className="mb-4 text-sm font-semibold text-gray-900 dark:text-white">
               {dict.footer.quickLinks}
             </h3>
-            <ul className="space-y-2">
+            <ul className="space-y-2" role="list">
               <li>
                 <Link
                   href={`/${locale}/services`}
@@ -82,62 +82,65 @@ export function Footer({ locale, dict }: FooterProps) {
                 </Link>
               </li>
             </ul>
-          </div>
+          </nav>
 
           {/* Contact */}
-          <div>
+          <address className="not-italic">
             <h3 className="mb-4 text-sm font-semibold text-gray-900 dark:text-white">
               {dict.footer.contact}
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-3" role="list">
               <li className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400">
-                <Phone className="h-4 w-4" />
-                <a href={`tel:${SITE_CONFIG.phone}`} className="hover:text-blue-600">
+                <Phone className="h-4 w-4" aria-hidden="true" />
+                <a href={`tel:${SITE_CONFIG.phone}`} className="hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded">
                   {SITE_CONFIG.phone}
                 </a>
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400">
-                <Mail className="h-4 w-4" />
-                <a href={`mailto:${SITE_CONFIG.email}`} className="hover:text-blue-600">
+                <Mail className="h-4 w-4" aria-hidden="true" />
+                <a href={`mailto:${SITE_CONFIG.email}`} className="hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded">
                   {SITE_CONFIG.email}
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-gray-600 dark:text-gray-400">
-                <MapPin className="h-4 w-4 mt-0.5" />
+                <MapPin className="h-4 w-4 mt-0.5" aria-hidden="true" />
                 <span>{SITE_CONFIG.address}</span>
               </li>
             </ul>
-          </div>
+          </address>
 
           {/* Social */}
           <div>
             <h3 className="mb-4 text-sm font-semibold text-gray-900 dark:text-white">
               {dict.footer.followUs}
             </h3>
-            <div className="flex gap-3">
+            <div className="flex gap-3" role="list" aria-label="Social media links">
               <a
                 href={`https://wa.me/${SITE_CONFIG.whatsapp}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 text-gray-600 transition-colors hover:bg-green-100 hover:text-green-600 dark:bg-gray-800 dark:text-gray-400"
+                className="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 text-gray-600 transition-colors hover:bg-green-100 hover:text-green-600 dark:bg-gray-800 dark:text-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500"
+                aria-label="Contact us on WhatsApp"
               >
-                <MessageCircle className="h-5 w-5" />
+                <MessageCircle className="h-5 w-5" aria-hidden="true" />
               </a>
               <a
                 href={SITE_CONFIG.social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 text-gray-600 transition-colors hover:bg-pink-100 hover:text-pink-600 dark:bg-gray-800 dark:text-gray-400"
+                className="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 text-gray-600 transition-colors hover:bg-pink-100 hover:text-pink-600 dark:bg-gray-800 dark:text-gray-400 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                aria-label="Follow us on Instagram"
               >
-                <Instagram className="h-5 w-5" />
+                <Instagram className="h-5 w-5" aria-hidden="true" />
               </a>
               <a
                 href={SITE_CONFIG.social.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 text-gray-600 transition-colors hover:bg-blue-100 hover:text-blue-600 dark:bg-gray-800 dark:text-gray-400"
+                className="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 text-gray-600 transition-colors hover:bg-blue-100 hover:text-blue-600 dark:bg-gray-800 dark:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                aria-label="Follow us on Facebook"
               >
-                <Facebook className="h-5 w-5" />
+                <Facebook className="h-5 w-5" aria-hidden="true" />
               </a>
             </div>
           </div>

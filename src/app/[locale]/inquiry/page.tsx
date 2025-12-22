@@ -52,13 +52,13 @@ function InquiryPageContent({
           </div>
 
           {/* Contact Info Sidebar */}
-          <div className="space-y-6">
+          <aside className="space-y-6" aria-label="Contact options">
             <Card className="p-6">
               <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
-                Direct Contact
+                {dict.inquiryPage?.directContact}
               </h2>
               <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                Prefer to reach us directly? We're here to help.
+                {dict.inquiryPage?.directContactDesc}
               </p>
 
               <div className="mt-6 space-y-4">
@@ -66,31 +66,33 @@ function InquiryPageContent({
                   href={`https://wa.me/${SITE_CONFIG.whatsapp}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 rounded-lg border border-gray-100 p-3 transition-colors hover:bg-gray-50 dark:border-gray-800 dark:hover:bg-gray-800"
+                  className="flex items-center gap-3 rounded-lg border border-gray-100 p-3 transition-colors hover:bg-gray-50 dark:border-gray-800 dark:hover:bg-gray-800 min-h-[48px]"
+                  aria-label={`${dict.inquiryPage?.whatsapp} - ${dict.inquiryPage?.whatsappDesc}`}
                 >
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-green-100 text-green-600">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-green-100 text-green-600" aria-hidden="true">
                     <MessageCircle className="h-5 w-5" />
                   </div>
                   <div>
                     <div className="text-sm font-medium text-gray-900 dark:text-white">
-                      WhatsApp
+                      {dict.inquiryPage?.whatsapp}
                     </div>
                     <div className="text-sm text-gray-600 dark:text-gray-400">
-                      Chat with us instantly
+                      {dict.inquiryPage?.whatsappDesc}
                     </div>
                   </div>
                 </a>
 
                 <a
                   href={`tel:${SITE_CONFIG.phone}`}
-                  className="flex items-center gap-3 rounded-lg border border-gray-100 p-3 transition-colors hover:bg-gray-50 dark:border-gray-800 dark:hover:bg-gray-800"
+                  className="flex items-center gap-3 rounded-lg border border-gray-100 p-3 transition-colors hover:bg-gray-50 dark:border-gray-800 dark:hover:bg-gray-800 min-h-[48px]"
+                  aria-label={`${dict.inquiryPage?.phone} - ${SITE_CONFIG.phone}`}
                 >
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-100 text-blue-600">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-100 text-blue-600" aria-hidden="true">
                     <Phone className="h-5 w-5" />
                   </div>
                   <div>
                     <div className="text-sm font-medium text-gray-900 dark:text-white">
-                      Phone
+                      {dict.inquiryPage?.phone}
                     </div>
                     <div className="text-sm text-gray-600 dark:text-gray-400">
                       {SITE_CONFIG.phone}
@@ -100,14 +102,15 @@ function InquiryPageContent({
 
                 <a
                   href={`mailto:${SITE_CONFIG.email}`}
-                  className="flex items-center gap-3 rounded-lg border border-gray-100 p-3 transition-colors hover:bg-gray-50 dark:border-gray-800 dark:hover:bg-gray-800"
+                  className="flex items-center gap-3 rounded-lg border border-gray-100 p-3 transition-colors hover:bg-gray-50 dark:border-gray-800 dark:hover:bg-gray-800 min-h-[48px]"
+                  aria-label={`${dict.inquiryPage?.email} - ${SITE_CONFIG.email}`}
                 >
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-purple-100 text-purple-600">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-purple-100 text-purple-600" aria-hidden="true">
                     <Mail className="h-5 w-5" />
                   </div>
                   <div>
                     <div className="text-sm font-medium text-gray-900 dark:text-white">
-                      Email
+                      {dict.inquiryPage?.email}
                     </div>
                     <div className="text-sm text-gray-600 dark:text-gray-400">
                       {SITE_CONFIG.email}
@@ -119,14 +122,14 @@ function InquiryPageContent({
 
             <Card className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 dark:from-blue-900/20 dark:to-cyan-900/20">
               <h3 className="font-semibold text-gray-900 dark:text-white">
-                Response Time
+                {dict.inquiryPage?.responseTime}
               </h3>
-              <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                We typically respond within <strong>24 hours</strong>. For urgent
-                inquiries, please use WhatsApp for faster response.
-              </p>
+              <p
+                className="mt-2 text-sm text-gray-600 dark:text-gray-400"
+                dangerouslySetInnerHTML={{ __html: dict.inquiryPage?.responseTimeDesc || '' }}
+              />
             </Card>
-          </div>
+          </aside>
         </div>
       </div>
     </div>

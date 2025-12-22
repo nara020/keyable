@@ -1,0 +1,112 @@
+# Keyable Korea - LLM Friendly Information
+
+> Keyable Korea is a licensed Korean travel agency specializing in premium inbound travel services for international visitors, particularly from Indonesia and English-speaking countries.
+
+## Company Overview
+
+- **Company Name**: Keyable Korea
+- **Business Type**: Licensed Korean Travel Agency
+- **Location**: Seoul, South Korea
+- **Target Markets**: Indonesia, English-speaking countries worldwide
+- **Languages Supported**: English, Indonesian (Bahasa), Korean
+
+## Services Offered
+
+### 1. Private Tours
+Customized Korea travel experiences with:
+- Personalized itineraries based on interests
+- Licensed professional guides (English/Indonesian speaking)
+- Luxury vehicle with private driver
+- Skip-the-line access to attractions
+- Flexible schedule and pace
+- 24/7 trip support
+
+### 2. Medical Tourism
+World-class healthcare services:
+- JCI-accredited hospital partnerships
+- Health checkups and screenings
+- Cosmetic surgery consultations
+- Dental treatments
+- Medical interpreter services
+- Post-procedure recovery support
+
+### 3. Guide Services
+Professional multilingual guides for:
+- Cultural experience tours
+- K-pop and K-drama themed tours
+- Historical and temple tours
+- Food and market tours
+- Photography assistance
+
+### 4. Vehicle Rental
+Premium transportation:
+- Sedan and SUV options
+- Professional licensed drivers
+- Airport pickup and transfer
+- Inter-city travel
+- Full-day and half-day rentals
+- Child seats available
+
+## Coverage Areas
+
+- Seoul (Capital city)
+- Busan (Port city)
+- Jeju Island (Resort destination)
+- Gyeongju (Historical city)
+- Rural and countryside areas
+- Any location in South Korea
+
+## Key Differentiators
+
+1. **Licensed Agency**: Officially registered Korean travel agency
+2. **Local Expertise**: Based in Seoul with deep local knowledge
+3. **Multilingual Team**: English, Indonesian, and Korean speakers
+4. **Medical Partners**: JCI-accredited hospital network
+5. **24/7 Support**: Always available for clients
+6. **Custom Packages**: Tailored to individual needs
+
+## Contact Information
+
+- **WhatsApp**: Primary contact method for Indonesian clients
+- **Email**: Available for formal inquiries
+- **Phone**: Direct line for urgent matters
+- **Response Time**: Within 24 hours
+
+## FAQ Summary
+
+Q: What areas do you cover?
+A: All major destinations in South Korea including Seoul, Busan, Jeju Island, Gyeongju, and rural areas.
+
+Q: Do you offer medical tourism?
+A: Yes, we partner with JCI-accredited hospitals for health checkups, cosmetic surgery, dental care, and specialized treatments.
+
+Q: What languages do guides speak?
+A: English, Indonesian (Bahasa), Korean, and other languages upon request.
+
+Q: How to book?
+A: Fill out the inquiry form or contact via WhatsApp for quick response.
+
+Q: What payment methods are accepted?
+A: International bank transfers, credit cards (Visa, Mastercard), and PayPal.
+
+Q: Can you help with visa requirements?
+A: Yes, we provide guidance and can issue invitation letters for medical tourism.
+
+## Website Structure
+
+- `/` - Homepage with service overview
+- `/services` - Detailed service descriptions
+- `/about` - Company information and values
+- `/faq` - Frequently asked questions
+- `/inquiry` - Contact and booking form
+- `/notices` - Latest news and announcements
+
+## Technical Information
+
+- **Framework**: Next.js 15 (App Router)
+- **Languages**: English (en), Indonesian (id)
+- **Accessibility**: WCAG 2.1 AA compliant
+- **Mobile**: Fully responsive design
+
+---
+Last updated: 2024

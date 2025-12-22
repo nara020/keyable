@@ -102,6 +102,24 @@
       "rating": "Tingkat Kepuasan"
     }
   },
+  "home": {
+    "whyChoose": "Mengapa Memilih Keyable Korea?",
+    "whyChooseDesc": "Kami menggabungkan keahlian lokal dengan standar layanan global untuk memberikan pengalaman Korea yang tak terlupakan sesuai kebutuhan Anda.",
+    "features": {
+      "licensed": "Agen Perjalanan Korea Berlisensi",
+      "guides": "Pemandu Berbahasa Inggris & Indonesia",
+      "hospitals": "Mitra Rumah Sakit Terakreditasi JCI",
+      "support": "Dukungan Pelanggan 24/7",
+      "custom": "Itinerari yang Disesuaikan",
+      "vehicles": "Armada Kendaraan Premium"
+    },
+    "learnAbout": "Pelajari Lebih Lanjut Tentang Kami",
+    "premiumService": "Layanan Premium",
+    "since": "Sejak 2019",
+    "readyToExplore": "Siap Menjelajahi Korea?",
+    "readyDesc": "Biarkan kami menciptakan pengalaman Korea yang sempurna untuk Anda. Dapatkan konsultasi gratis hari ini.",
+    "whatsappUs": "WhatsApp Kami"
+  },
   "faq": {
     "title": "Pertanyaan yang Sering Diajukan",
     "subtitle": "Temukan jawaban untuk pertanyaan umum tentang layanan kami",
@@ -140,5 +158,81 @@
     "error": "Terjadi kesalahan",
     "retry": "Coba Lagi",
     "back": "Kembali"
+  },
+  "servicesPage": {
+    "customCta": {
+      "title": "Tidak menemukan yang Anda cari?",
+      "description": "Kami membuat paket khusus sesuai kebutuhan Anda. Hubungi kami untuk penawaran personal.",
+      "button": "Minta Penawaran Khusus"
+    },
+    "features": {
+      "privateTour": [
+        "Itinerari khusus sesuai minat Anda",
+        "Pemandu profesional berlisensi berbahasa Inggris/Indonesia",
+        "Kendaraan mewah dengan sopir pribadi",
+        "Akses tanpa antre ke objek wisata populer",
+        "Jadwal dan tempo fleksibel",
+        "Dukungan perjalanan 24/7"
+      ],
+      "medical": [
+        "Kemitraan rumah sakit terakreditasi JCI",
+        "Pemeriksaan kesehatan dan skrining",
+        "Konsultasi operasi kosmetik",
+        "Perawatan gigi",
+        "Layanan penerjemah medis",
+        "Dukungan pemulihan pasca prosedur"
+      ],
+      "guide": [
+        "Pemandu multibahasa berlisensi",
+        "Spesialis pengalaman budaya",
+        "Ahli tur K-pop dan K-drama",
+        "Tur sejarah dan kuil",
+        "Tur makanan dan pasar",
+        "Bantuan fotografi"
+      ],
+      "vehicle": [
+        "Pilihan sedan dan SUV premium",
+        "Sopir profesional berlisensi",
+        "Penjemputan dan transfer bandara",
+        "Perjalanan antar kota",
+        "Sewa sehari penuh dan setengah hari",
+        "Kursi anak tersedia"
+      ]
+    }
+  },
+  "faqPage": {
+    "stillHaveQuestions": "Masih ada pertanyaan?",
+    "stillHaveQuestionsDesc": "Tim kami siap membantu. Hubungi kami kapan saja.",
+    "contactUs": "Hubungi Kami"
+  },
+  "aboutPage": {
+    "storyExtended": "Dengan pengetahuan lokal yang mendalam dan semangat pelayanan, kami telah membantu ribuan wisatawan dari Indonesia dan seluruh dunia menemukan keindahan Korea. Dari Seoul yang ramai hingga Jeju yang tenang, dari fasilitas medis kelas dunia hingga permata budaya tersembunyi, kami membuat setiap perjalanan berkesan.",
+    "missionExtended": "Kami percaya bahwa perjalanan harus bebas stres dan memperkaya. Itulah mengapa kami menangani setiap detail—dari transportasi dan akomodasi hingga janji medis dan pengalaman budaya—sehingga Anda dapat fokus menciptakan kenangan abadi.",
+    "whyUs": {
+      "title": "Mengapa Keyable Korea?",
+      "licensedAgency": "Agen Berlisensi",
+      "licensedAgencyDesc": "Agen perjalanan Korea yang terdaftar resmi",
+      "localExpertise": "Keahlian Lokal",
+      "localExpertiseDesc": "Berbasis di Seoul dengan pengetahuan lokal yang mendalam",
+      "multilingualTeam": "Tim Multibahasa",
+      "multilingualTeamDesc": "Berbicara bahasa Inggris, Indonesia, dan Korea",
+      "medicalPartners": "Mitra Medis",
+      "medicalPartnersDesc": "Jaringan rumah sakit terakreditasi JCI",
+      "support247": "Dukungan 24/7",
+      "support247Desc": "Selalu tersedia untuk klien kami"
+    },
+    "readyToExplore": "Siap menjelajahi Korea?",
+    "readyToExploreDesc": "Biarkan kami membantu merencanakan pengalaman Korea sempurna Anda.",
+    "getStarted": "Mulai Sekarang"
+  },
+  "inquiryPage": {
+    "directContact": "Kontak Langsung",
+    "directContactDesc": "Lebih suka menghubungi kami langsung? Kami siap membantu.",
+    "whatsapp": "WhatsApp",
+    "whatsappDesc": "Chat dengan kami sekarang",
+    "phone": "Telepon",
+    "email": "Email",
+    "responseTime": "Waktu Respons",
+    "responseTimeDesc": "Kami biasanya merespons dalam <strong>24 jam</strong>. Untuk pertanyaan mendesak, silakan gunakan WhatsApp untuk respons lebih cepat."
   }
 }

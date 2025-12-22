@@ -102,6 +102,24 @@
       "rating": "Satisfaction Rate"
     }
   },
+  "home": {
+    "whyChoose": "Why Choose Keyable Korea?",
+    "whyChooseDesc": "We combine local expertise with global service standards to deliver unforgettable Korea experiences tailored to your needs.",
+    "features": {
+      "licensed": "Licensed Korean Travel Agency",
+      "guides": "English & Indonesian Speaking Guides",
+      "hospitals": "JCI-Accredited Hospital Partners",
+      "support": "24/7 Customer Support",
+      "custom": "Customized Itineraries",
+      "vehicles": "Premium Vehicle Fleet"
+    },
+    "learnAbout": "Learn More About Us",
+    "premiumService": "Premium Service",
+    "since": "Since 2019",
+    "readyToExplore": "Ready to Explore Korea?",
+    "readyDesc": "Let us create your perfect Korean experience. Get a free consultation today.",
+    "whatsappUs": "WhatsApp Us"
+  },
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Find answers to common questions about our services",
@@ -140,5 +158,81 @@
     "error": "Something went wrong",
     "retry": "Try Again",
     "back": "Back"
+  },
+  "servicesPage": {
+    "customCta": {
+      "title": "Can't find what you're looking for?",
+      "description": "We create custom packages tailored to your needs. Contact us for a personalized quote.",
+      "button": "Request Custom Quote"
+    },
+    "features": {
+      "privateTour": [
+        "Customized itineraries based on your interests",
+        "Professional licensed English/Indonesian guides",
+        "Luxury vehicle with private driver",
+        "Skip-the-line access to popular attractions",
+        "Flexible schedule and pace",
+        "24/7 trip support"
+      ],
+      "medical": [
+        "JCI-accredited hospital partnerships",
+        "Health checkups and screenings",
+        "Cosmetic surgery consultations",
+        "Dental treatments",
+        "Medical interpreter services",
+        "Post-procedure recovery support"
+      ],
+      "guide": [
+        "Licensed multilingual guides",
+        "Cultural experience specialists",
+        "K-pop and K-drama tour experts",
+        "Historical and temple tours",
+        "Food and market tours",
+        "Photography assistance"
+      ],
+      "vehicle": [
+        "Premium sedan and SUV options",
+        "Professional licensed drivers",
+        "Airport pickup and transfer",
+        "Inter-city travel",
+        "Full-day and half-day rentals",
+        "Child seats available"
+      ]
+    }
+  },
+  "faqPage": {
+    "stillHaveQuestions": "Still have questions?",
+    "stillHaveQuestionsDesc": "Our team is happy to help. Reach out to us anytime.",
+    "contactUs": "Contact Us"
+  },
+  "aboutPage": {
+    "storyExtended": "With deep local knowledge and a passion for hospitality, we have helped thousands of travelers from Indonesia and around the world discover the beauty of Korea. From bustling Seoul to serene Jeju, from world-class medical facilities to hidden cultural gems, we make every journey memorable.",
+    "missionExtended": "We believe that travel should be stress-free and enriching. That's why we handle every detail—from transportation and accommodation to medical appointments and cultural experiences—so you can focus on creating lasting memories.",
+    "whyUs": {
+      "title": "Why Keyable Korea?",
+      "licensedAgency": "Licensed Agency",
+      "licensedAgencyDesc": "Officially registered Korean travel agency",
+      "localExpertise": "Local Expertise",
+      "localExpertiseDesc": "Based in Seoul with deep local knowledge",
+      "multilingualTeam": "Multilingual Team",
+      "multilingualTeamDesc": "English, Indonesian, and Korean speakers",
+      "medicalPartners": "Medical Partners",
+      "medicalPartnersDesc": "JCI-accredited hospital network",
+      "support247": "24/7 Support",
+      "support247Desc": "Always available for our clients"
+    },
+    "readyToExplore": "Ready to explore Korea?",
+    "readyToExploreDesc": "Let us help you plan your perfect Korean experience.",
+    "getStarted": "Get Started"
+  },
+  "inquiryPage": {
+    "directContact": "Direct Contact",
+    "directContactDesc": "Prefer to reach us directly? We're here to help.",
+    "whatsapp": "WhatsApp",
+    "whatsappDesc": "Chat with us instantly",
+    "phone": "Phone",
+    "email": "Email",
+    "responseTime": "Response Time",
+    "responseTimeDesc": "We typically respond within <strong>24 hours</strong>. For urgent inquiries, please use WhatsApp for faster response."
   }
 }

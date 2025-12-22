@@ -80,10 +80,7 @@ export default async function AboutPage({
               {dict.about.story.content}
             </p>
             <p className="mt-4 text-gray-600 dark:text-gray-400 leading-relaxed">
-              With deep local knowledge and a passion for hospitality, we have helped
-              thousands of travelers from Indonesia and around the world discover the
-              beauty of Korea. From bustling Seoul to serene Jeju, from world-class
-              medical facilities to hidden cultural gems, we make every journey memorable.
+              {dict.aboutPage?.storyExtended}
             </p>
           </div>
           <div>
@@ -94,10 +91,7 @@ export default async function AboutPage({
               {dict.about.mission.content}
             </p>
             <p className="mt-4 text-gray-600 dark:text-gray-400 leading-relaxed">
-              We believe that travel should be stress-free and enriching. That's why we
-              handle every detail—from transportation and accommodation to medical
-              appointments and cultural experiences—so you can focus on creating
-              lasting memories.
+              {dict.aboutPage?.missionExtended}
             </p>
           </div>
         </div>
@@ -129,63 +123,63 @@ export default async function AboutPage({
         </div>
 
         {/* Team/Company Info */}
-        <div className="mt-20 rounded-2xl bg-gray-50 p-8 dark:bg-gray-900 lg:p-12">
+        <section className="mt-20 rounded-2xl bg-gray-50 p-8 dark:bg-gray-900 lg:p-12" aria-labelledby="why-us-heading">
           <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-                Why {SITE_CONFIG.name}?
+              <h2 id="why-us-heading" className="text-2xl font-bold text-gray-900 dark:text-white">
+                {dict.aboutPage?.whyUs?.title}
               </h2>
-              <ul className="mt-6 space-y-4">
+              <ul className="mt-6 space-y-4" role="list">
                 <li className="flex items-start gap-3">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" />
+                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" aria-hidden="true" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    <strong>Licensed Agency:</strong> Officially registered Korean travel agency
+                    <strong>{dict.aboutPage?.whyUs?.licensedAgency}:</strong> {dict.aboutPage?.whyUs?.licensedAgencyDesc}
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" />
+                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" aria-hidden="true" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    <strong>Local Expertise:</strong> Based in Seoul with deep local knowledge
+                    <strong>{dict.aboutPage?.whyUs?.localExpertise}:</strong> {dict.aboutPage?.whyUs?.localExpertiseDesc}
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" />
+                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" aria-hidden="true" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    <strong>Multilingual Team:</strong> English, Indonesian, and Korean speakers
+                    <strong>{dict.aboutPage?.whyUs?.multilingualTeam}:</strong> {dict.aboutPage?.whyUs?.multilingualTeamDesc}
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" />
+                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" aria-hidden="true" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    <strong>Medical Partners:</strong> JCI-accredited hospital network
+                    <strong>{dict.aboutPage?.whyUs?.medicalPartners}:</strong> {dict.aboutPage?.whyUs?.medicalPartnersDesc}
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" />
+                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" aria-hidden="true" />
                   <span className="text-gray-700 dark:text-gray-300">
-                    <strong>24/7 Support:</strong> Always available for our clients
+                    <strong>{dict.aboutPage?.whyUs?.support247}:</strong> {dict.aboutPage?.whyUs?.support247Desc}
                   </span>
                 </li>
               </ul>
             </div>
             <div className="flex flex-col justify-center">
               <div className="rounded-xl bg-gradient-to-br from-blue-600 to-cyan-600 p-8 text-center text-white">
-                <h3 className="text-xl font-semibold">Ready to explore Korea?</h3>
+                <h3 className="text-xl font-semibold">{dict.aboutPage?.readyToExplore}</h3>
                 <p className="mt-2 text-blue-100">
-                  Let us help you plan your perfect Korean experience.
+                  {dict.aboutPage?.readyToExploreDesc}
                 </p>
                 <div className="mt-6">
                   <Link href={`/${locale}/inquiry`}>
-                    <Button className="bg-white text-blue-600 hover:bg-gray-100">
-                      Get Started
-                      <ArrowRight className="h-4 w-4" />
+                    <Button className="bg-white text-blue-600 hover:bg-gray-100 min-h-[48px]">
+                      {dict.aboutPage?.getStarted}
+                      <ArrowRight className="h-4 w-4" aria-hidden="true" />
                     </Button>
                   </Link>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   );

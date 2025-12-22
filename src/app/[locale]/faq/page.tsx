@@ -73,22 +73,22 @@ export default async function FAQPage({
           </div>
 
           {/* CTA */}
-          <div className="mt-12 rounded-2xl bg-gradient-to-r from-blue-50 to-cyan-50 p-8 text-center dark:from-blue-900/20 dark:to-cyan-900/20">
-            <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
-              Still have questions?
+          <section className="mt-12 rounded-2xl bg-gradient-to-r from-blue-50 to-cyan-50 p-8 text-center dark:from-blue-900/20 dark:to-cyan-900/20" aria-labelledby="faq-cta-heading">
+            <h2 id="faq-cta-heading" className="text-xl font-semibold text-gray-900 dark:text-white">
+              {dict.faqPage?.stillHaveQuestions}
             </h2>
             <p className="mt-2 text-gray-600 dark:text-gray-400">
-              Our team is happy to help. Reach out to us anytime.
+              {dict.faqPage?.stillHaveQuestionsDesc}
             </p>
             <div className="mt-6">
               <Link href={`/${locale}/inquiry`}>
-                <Button>
-                  Contact Us
-                  <ArrowRight className="h-4 w-4" />
+                <Button className="min-h-[48px]">
+                  {dict.faqPage?.contactUs}
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
                 </Button>
               </Link>
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </>
