@@ -272,6 +272,18 @@
     "readyToExploreDesc": "Biarkan kami membantu merencanakan pengalaman Korea sempurna Anda.",
     "getStarted": "Mulai Sekarang"
   },
+  "serviceDetail": {
+    "whatsIncluded": "Yang Termasuk",
+    "popularOptions": "Pilihan Populer",
+    "destinations": "Destinasi Populer",
+    "ourFleet": "Armada Kami",
+    "howItWorks": "Cara Kerja",
+    "pricingOptions": "Pilihan Harga",
+    "pricingNote": "Hubungi kami untuk penawaran personal berdasarkan kebutuhan spesifik Anda.",
+    "faq": "Pertanyaan yang Sering Diajukan",
+    "readyToBook": "Siap Memesan?",
+    "ctaDescription": "Dapatkan konsultasi gratis dan penawaran personal dalam 24 jam."
+  },
   "inquiryPage": {
     "directContact": "Kontak Langsung",
     "directContactDesc": "Lebih suka menghubungi kami langsung? Kami siap membantu.",

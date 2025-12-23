@@ -272,6 +272,18 @@
     "readyToExploreDesc": "Let us help you plan your perfect Korean experience.",
     "getStarted": "Get Started"
   },
+  "serviceDetail": {
+    "whatsIncluded": "What's Included",
+    "popularOptions": "Popular Options",
+    "destinations": "Popular Destinations",
+    "ourFleet": "Our Fleet",
+    "howItWorks": "How It Works",
+    "pricingOptions": "Pricing Options",
+    "pricingNote": "Contact us for a personalized quote based on your specific requirements.",
+    "faq": "Frequently Asked Questions",
+    "readyToBook": "Ready to Book?",
+    "ctaDescription": "Get a free consultation and personalized quote within 24 hours."
+  },
   "inquiryPage": {
     "directContact": "Direct Contact",
     "directContactDesc": "Prefer to reach us directly? We're here to help.",
