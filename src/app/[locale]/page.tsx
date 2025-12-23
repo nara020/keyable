@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Map, Heart, Users, Car, CheckCircle, Shield, MapPin, MessageCircle, UserCheck, Fuel, ParkingCircle, Droplets, ShieldCheck } from 'lucide-react';
 import { getDictionary } from '@/lib/i18n/getDictionary';
 import type { Locale } from '@/lib/i18n/config';
@@ -32,9 +33,9 @@ const trustSignalKeys = ['licensed', 'seoulBased', 'multilingual', 'personalized
 const featureKeys = ['licensed', 'guides', 'hospitals', 'support', 'custom', 'vehicles'] as const;
 
 const vehicleTypes = [
-  { key: 'sedan', color: 'from-gray-600 to-gray-800' },
-  { key: 'suv', color: 'from-blue-600 to-blue-800' },
-  { key: 'van', color: 'from-emerald-600 to-emerald-800' },
+  { key: 'sedan', image: '/images/vehicles/sedan.jpg' },
+  { key: 'suv', image: '/images/vehicles/suv.jpg' },
+  { key: 'van', image: '/images/vehicles/van.jpg' },
 ];
 
 const includedIcons = {
@@ -187,9 +188,16 @@ export default async function HomePage({
               return (
                 <Card key={vehicle.key} className="overflow-hidden border-gray-800 bg-gray-800/50">
                   <CardContent className="p-0">
-                    {/* Vehicle Image Placeholder */}
-                    <div className={`h-48 bg-gradient-to-br ${vehicle.color} flex items-center justify-center`}>
-                      <Car className="h-20 w-20 text-white/80" aria-hidden="true" />
+                    {/* Vehicle Image */}
+                    <div className="relative h-48 overflow-hidden">
+                      <Image
+                        src={vehicle.image}
+                        alt={vehicleDict.title}
+                        fill
+                        className="object-cover transition-transform duration-300 hover:scale-105"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent" />
                     </div>
                     <div className="p-6">
                       <h3 className="text-xl font-semibold text-white">
