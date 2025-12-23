@@ -212,6 +212,25 @@
       "description": "We create custom packages tailored to your needs. Contact us for a personalized quote.",
       "button": "Request Custom Quote"
     },
+    "trustPoints": {
+      "licensed": "Licensed Agency",
+      "multilingual": "Multilingual Team",
+      "support": "24/7 Support"
+    },
+    "processTitle": "Simple Booking Process",
+    "processSubtitle": "From inquiry to experience in 4 easy steps",
+    "process": {
+      "step1Title": "Inquiry",
+      "step1Desc": "Tell us about your travel plans",
+      "step2Title": "Proposal",
+      "step2Desc": "Receive a custom quote within 24h",
+      "step3Title": "Confirm",
+      "step3Desc": "Secure your booking with deposit",
+      "step4Title": "Enjoy",
+      "step4Desc": "Experience Korea with full support"
+    },
+    "destinationsTitle": "Popular Destinations",
+    "destinationsSubtitle": "Explore the best of South Korea",
     "features": {
       "privateTour": [
         "Customized itineraries based on your interests",

@@ -212,6 +212,25 @@
       "description": "Kami membuat paket khusus sesuai kebutuhan Anda. Hubungi kami untuk penawaran personal.",
       "button": "Minta Penawaran Khusus"
     },
+    "trustPoints": {
+      "licensed": "Agen Berlisensi",
+      "multilingual": "Tim Multibahasa",
+      "support": "Dukungan 24/7"
+    },
+    "processTitle": "Proses Pemesanan Mudah",
+    "processSubtitle": "Dari permintaan hingga pengalaman dalam 4 langkah mudah",
+    "process": {
+      "step1Title": "Permintaan",
+      "step1Desc": "Ceritakan rencana perjalanan Anda",
+      "step2Title": "Proposal",
+      "step2Desc": "Terima penawaran khusus dalam 24 jam",
+      "step3Title": "Konfirmasi",
+      "step3Desc": "Amankan pemesanan dengan deposit",
+      "step4Title": "Nikmati",
+      "step4Desc": "Jelajahi Korea dengan dukungan penuh"
+    },
+    "destinationsTitle": "Destinasi Populer",
+    "destinationsSubtitle": "Jelajahi yang terbaik dari Korea Selatan",
     "features": {
       "privateTour": [
         "Itinerari khusus sesuai minat Anda",
