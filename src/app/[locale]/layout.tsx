@@ -6,6 +6,8 @@ import { getDictionary } from '@/lib/i18n/getDictionary';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { LocalBusinessSchema } from '@/components/seo/LocalBusinessSchema';
+import { OrganizationSchema } from '@/components/seo/OrganizationSchema';
+import { WebsiteSchema } from '@/components/seo/WebsiteSchema';
 import { GoogleAnalytics } from '@/components/analytics/GoogleAnalytics';
 import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
 import { SITE_CONFIG } from '@/lib/constants';
@@ -128,6 +130,8 @@ export default async function LocaleLayout({
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0ea5e9" />
+        <OrganizationSchema />
+        <WebsiteSchema />
         <LocalBusinessSchema />
         <GoogleAnalytics />
       </head>
