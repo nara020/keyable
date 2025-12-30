@@ -3,7 +3,7 @@ import { locales, defaultLocale } from '@/lib/i18n/config';
 
 const ADMIN_SESSION_COOKIE = 'keyable_admin_session';
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
   // Handle admin routes (except login)
