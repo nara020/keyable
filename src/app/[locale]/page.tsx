@@ -59,7 +59,7 @@ export default async function HomePage({
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 py-20 lg:py-32">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#040f77] via-[#0d1b6d] to-[#040f77] py-20 lg:py-32">
         <div className="absolute inset-0 bg-[url('/images/korea-bg.jpg')] bg-cover bg-center opacity-20" />
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
 
@@ -101,8 +101,8 @@ export default async function HomePage({
               const signal = dict.trustSignals[key];
               return (
                 <div key={key} className="text-center">
-                  <div className="mx-auto mb-2 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900/30">
-                    <IconComponent className="h-6 w-6 text-blue-600 dark:text-blue-400" aria-hidden="true" />
+                  <div className="mx-auto mb-2 flex h-12 w-12 items-center justify-center rounded-full bg-[#040f77]/10 dark:bg-[#040f77]/30">
+                    <IconComponent className="h-6 w-6 text-[#040f77] dark:text-[#fc645f]" aria-hidden="true" />
                   </div>
                   <div className="text-sm font-semibold text-gray-900 dark:text-white">
                     {signal.title}
@@ -151,7 +151,7 @@ export default async function HomePage({
                     </p>
                     <Link
                       href={`/${locale}/services/${service.key === 'privateTour' ? 'private-tour' : service.key === 'medical' ? 'medical-tourism' : service.key === 'guide' ? 'guide-service' : 'vehicle-rental'}`}
-                      className="inline-flex items-center gap-1 text-sm font-medium text-blue-600 hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+                      className="inline-flex items-center gap-1 text-sm font-medium text-[#040f77] hover:text-[#fc645f] focus:outline-none focus:ring-2 focus:ring-[#040f77] focus:ring-offset-2 rounded"
                     >
                       {dict.services.learnMore}
                       <ArrowRight className="h-4 w-4" aria-hidden="true" />
@@ -208,7 +208,7 @@ export default async function HomePage({
                       </p>
                       <div className="mt-4 space-y-2">
                         <div className="flex items-center gap-2 text-sm text-gray-300">
-                          <Users className="h-4 w-4 text-blue-400" aria-hidden="true" />
+                          <Users className="h-4 w-4 text-[#fc645f]" aria-hidden="true" />
                           {vehicleDict.capacity}
                         </div>
                         <p className="text-sm text-gray-400">
@@ -289,10 +289,10 @@ export default async function HomePage({
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-blue-100 to-cyan-100 dark:from-blue-900/20 dark:to-cyan-900/20">
+              <div className="aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-[#040f77]/10 to-[#fc645f]/10 dark:from-[#040f77]/20 dark:to-[#fc645f]/20">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center p-8">
-                    <MapPin className="mx-auto h-16 w-16 text-blue-500" aria-hidden="true" />
+                    <MapPin className="mx-auto h-16 w-16 text-[#040f77]" aria-hidden="true" />
                     <p className="mt-4 text-xl font-semibold text-gray-900 dark:text-white">
                       {dict.home.premiumService}
                     </p>
@@ -306,19 +306,19 @@ export default async function HomePage({
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-cyan-600 py-16 lg:py-20" aria-labelledby="cta-heading">
+      <section className="bg-gradient-to-r from-[#040f77] to-[#fc645f] py-16 lg:py-20" aria-labelledby="cta-heading">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <h2 id="cta-heading" className="text-3xl font-bold text-white sm:text-4xl">
             {dict.home.readyToExplore}
           </h2>
-          <p className="mt-4 text-lg text-blue-100">
+          <p className="mt-4 text-lg text-white/80">
             {dict.home.readyDesc}
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
             <Link href={`/${locale}/inquiry`}>
               <Button
                 size="lg"
-                className="w-full bg-white text-blue-600 hover:bg-gray-100 sm:w-auto min-h-[48px]"
+                className="w-full bg-white text-[#040f77] hover:bg-gray-100 sm:w-auto min-h-[48px]"
               >
                 {dict.hero.cta}
                 <ArrowRight className="h-5 w-5" aria-hidden="true" />

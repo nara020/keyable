@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Keyable Korea - Automated Build & Check System
+ * Keyable Tour - Automated Build & Check System
  *
  * Usage: node scripts/build-check.js [command]
  *
@@ -11,9 +11,11 @@
  *   status   - Show project status
  */
 
+/* eslint-disable @typescript-eslint/no-require-imports */
 const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
+/* eslint-enable @typescript-eslint/no-require-imports */
 
 const colors = {
   reset: '\x1b[0m',
@@ -34,7 +36,7 @@ function runCommand(command, description) {
     execSync(command, { stdio: 'inherit', cwd: process.cwd() });
     log(`✓ ${description} completed`, 'green');
     return true;
-  } catch (error) {
+  } catch {
     log(`✗ ${description} failed`, 'red');
     return false;
   }
@@ -52,7 +54,7 @@ function checkEnvFile() {
 
 function showStatus() {
   log('\n╔══════════════════════════════════════════════════╗', 'blue');
-  log('║       KEYABLE KOREA - PROJECT STATUS              ║', 'blue');
+  log('║       KEYABLE TOUR - PROJECT STATUS               ║', 'blue');
   log('╚══════════════════════════════════════════════════╝', 'blue');
 
   const tasks = [

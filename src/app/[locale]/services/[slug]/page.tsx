@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, ArrowLeft, Map, Heart, Users, Car, CheckCircle, Clock, MapPin, Phone, Star, Shield, Calendar, Plane, Hospital, Stethoscope, Smile, Camera, Utensils, Music } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Map, Heart, Users, Car, CheckCircle, Clock, MapPin, Phone, Star, Shield, Calendar, Plane, Hospital, Stethoscope, Camera, Utensils, Music } from 'lucide-react';
 import { getDictionary } from '@/lib/i18n/getDictionary';
 import type { Locale } from '@/lib/i18n/config';
 import { Button } from '@/components/ui/button';

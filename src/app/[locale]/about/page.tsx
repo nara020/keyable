@@ -6,9 +6,9 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 const values = [
-  { key: 'trust', icon: Shield, color: 'bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400' },
+  { key: 'trust', icon: Shield, color: 'bg-[#040f77]/10 text-[#040f77] dark:bg-[#040f77]/30 dark:text-[#fc645f]' },
   { key: 'quality', icon: Star, color: 'bg-amber-100 text-amber-600 dark:bg-amber-900/30 dark:text-amber-400' },
-  { key: 'personal', icon: Heart, color: 'bg-rose-100 text-rose-600 dark:bg-rose-900/30 dark:text-rose-400' },
+  { key: 'personal', icon: Heart, color: 'bg-[#fc645f]/10 text-[#fc645f] dark:bg-[#fc645f]/30 dark:text-[#fc645f]' },
   { key: 'local', icon: MapPin, color: 'bg-emerald-100 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-400' },
 ];
 
@@ -64,10 +64,10 @@ export default async function AboutPage({
             return (
               <div
                 key={key}
-                className="rounded-2xl bg-gradient-to-br from-blue-50 to-cyan-50 p-6 text-center dark:from-blue-900/20 dark:to-cyan-900/20"
+                className="rounded-2xl bg-gradient-to-br from-[#040f77]/5 to-[#fc645f]/5 p-6 text-center dark:from-[#040f77]/20 dark:to-[#fc645f]/20"
               >
-                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900/50">
-                  <IconComponent className="h-6 w-6 text-blue-600 dark:text-blue-400" aria-hidden="true" />
+                <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#040f77]/10 dark:bg-[#040f77]/50">
+                  <IconComponent className="h-6 w-6 text-[#040f77] dark:text-[#fc645f]" aria-hidden="true" />
                 </div>
                 <div className="text-lg font-semibold text-gray-900 dark:text-white">
                   {signal.title}
@@ -142,31 +142,31 @@ export default async function AboutPage({
               </h2>
               <ul className="mt-6 space-y-4" role="list">
                 <li className="flex items-start gap-3">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" aria-hidden="true" />
+                  <div className="mt-1 h-2 w-2 rounded-full bg-[#fc645f]" aria-hidden="true" />
                   <span className="text-gray-700 dark:text-gray-300">
                     <strong>{dict.aboutPage?.whyUs?.licensedAgency}:</strong> {dict.aboutPage?.whyUs?.licensedAgencyDesc}
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" aria-hidden="true" />
+                  <div className="mt-1 h-2 w-2 rounded-full bg-[#fc645f]" aria-hidden="true" />
                   <span className="text-gray-700 dark:text-gray-300">
                     <strong>{dict.aboutPage?.whyUs?.localExpertise}:</strong> {dict.aboutPage?.whyUs?.localExpertiseDesc}
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" aria-hidden="true" />
+                  <div className="mt-1 h-2 w-2 rounded-full bg-[#fc645f]" aria-hidden="true" />
                   <span className="text-gray-700 dark:text-gray-300">
                     <strong>{dict.aboutPage?.whyUs?.multilingualTeam}:</strong> {dict.aboutPage?.whyUs?.multilingualTeamDesc}
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" aria-hidden="true" />
+                  <div className="mt-1 h-2 w-2 rounded-full bg-[#fc645f]" aria-hidden="true" />
                   <span className="text-gray-700 dark:text-gray-300">
                     <strong>{dict.aboutPage?.whyUs?.medicalPartners}:</strong> {dict.aboutPage?.whyUs?.medicalPartnersDesc}
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="mt-1 h-2 w-2 rounded-full bg-blue-500" aria-hidden="true" />
+                  <div className="mt-1 h-2 w-2 rounded-full bg-[#fc645f]" aria-hidden="true" />
                   <span className="text-gray-700 dark:text-gray-300">
                     <strong>{dict.aboutPage?.whyUs?.support247}:</strong> {dict.aboutPage?.whyUs?.support247Desc}
                   </span>
@@ -174,14 +174,14 @@ export default async function AboutPage({
               </ul>
             </div>
             <div className="flex flex-col justify-center">
-              <div className="rounded-xl bg-gradient-to-br from-blue-600 to-cyan-600 p-8 text-center text-white">
+              <div className="rounded-xl bg-gradient-to-br from-[#040f77] to-[#fc645f] p-8 text-center text-white">
                 <h3 className="text-xl font-semibold">{dict.aboutPage?.readyToExplore}</h3>
-                <p className="mt-2 text-blue-100">
+                <p className="mt-2 text-white/80">
                   {dict.aboutPage?.readyToExploreDesc}
                 </p>
                 <div className="mt-6">
                   <Link href={`/${locale}/inquiry`}>
-                    <Button className="bg-white text-blue-600 hover:bg-gray-100 min-h-[48px]">
+                    <Button className="bg-white text-[#040f77] hover:bg-gray-100 min-h-[48px]">
                       {dict.aboutPage?.getStarted}
                       <ArrowRight className="h-4 w-4" aria-hidden="true" />
                     </Button>

@@ -65,7 +65,7 @@ export function InquiryForm({ locale, dict, defaultService }: InquiryFormProps) 
       }
 
       router.push(`/${locale}/inquiry/complete`);
-    } catch (err) {
+    } catch {
       setError('Failed to submit. Please try again or contact us directly.');
       setIsSubmitting(false);
     }

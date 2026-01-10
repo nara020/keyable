@@ -122,7 +122,7 @@ function InquiryPageContent({
             {/* Form Section */}
             <div className="lg:col-span-2">
               <Card className="overflow-hidden border-0 shadow-xl">
-                <div className="bg-gradient-to-r from-blue-600 to-cyan-600 px-6 py-4">
+                <div className="bg-gradient-to-r from-[#040f77] to-[#fc645f] px-6 py-4">
                   <h2 className="text-lg font-semibold text-white">
                     {locale === 'id' ? 'Isi Formulir Permintaan' : 'Fill Out Your Request'}
                   </h2>
@@ -174,7 +174,7 @@ function InquiryPageContent({
                       href={`tel:${SITE_CONFIG.phone}`}
                       className="group flex items-center gap-4 rounded-xl border border-gray-100 bg-white p-4 transition-all hover:border-blue-200 hover:shadow-md dark:border-gray-800 dark:bg-gray-900 dark:hover:border-blue-700 min-h-[64px]"
                     >
-                      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-blue-600 transition-transform group-hover:scale-110 dark:bg-blue-900/30 dark:text-blue-400">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#040f77]/10 text-[#040f77] transition-transform group-hover:scale-110 dark:bg-[#040f77]/30 dark:text-[#fc645f]">
                         <Phone className="h-6 w-6" />
                       </div>
                       <div>
@@ -207,7 +207,7 @@ function InquiryPageContent({
                 </div>
               </Card>
 
-              <Card className="overflow-hidden border-0 bg-gradient-to-br from-blue-600 to-cyan-600 shadow-lg">
+              <Card className="overflow-hidden border-0 bg-gradient-to-br from-[#040f77] to-[#fc645f] shadow-lg">
                 <div className="p-6 text-white">
                   <div className="flex items-center gap-3">
                     <Clock className="h-8 w-8" />

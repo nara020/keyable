@@ -276,17 +276,17 @@ export default async function ServicesPage({
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-cyan-600 py-16 lg:py-20">
+      <section className="bg-gradient-to-r from-[#040f77] to-[#fc645f] py-16 lg:py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-white sm:text-4xl">
             {dict.servicesPage?.customCta?.title}
           </h2>
-          <p className="mt-4 text-lg text-blue-100">
+          <p className="mt-4 text-lg text-white/80">
             {dict.servicesPage?.customCta?.description}
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
             <Link href={`/${locale}/inquiry`}>
-              <Button size="lg" className="w-full bg-white text-blue-600 hover:bg-gray-100 sm:w-auto min-h-[48px]">
+              <Button size="lg" className="w-full bg-white text-[#040f77] hover:bg-gray-100 sm:w-auto min-h-[48px]">
                 {dict.servicesPage?.customCta?.button}
                 <ArrowRight className="h-5 w-5" />
               </Button>

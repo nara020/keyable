@@ -128,15 +128,15 @@ export default async function FAQPage({
                 >
                   <summary className="flex cursor-pointer items-center justify-between gap-4 p-6 text-left">
                     <div className="flex items-center gap-4">
-                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-100 text-sm font-semibold text-blue-600 dark:bg-blue-900/30 dark:text-blue-400">
+                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#040f77]/10 text-sm font-semibold text-[#040f77] dark:bg-[#040f77]/30 dark:text-[#fc645f]">
                         {index + 1}
                       </span>
                       <h2 className="text-lg font-medium text-gray-900 dark:text-white">
                         {faq.question}
                       </h2>
                     </div>
-                    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 transition-colors group-open:bg-blue-100 dark:bg-gray-800 dark:group-open:bg-blue-900/30">
-                      <ChevronDown className="h-5 w-5 text-gray-500 transition-transform group-open:rotate-180 group-open:text-blue-600 dark:group-open:text-blue-400" />
+                    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 transition-colors group-open:bg-[#040f77]/10 dark:bg-gray-800 dark:group-open:bg-[#040f77]/30">
+                      <ChevronDown className="h-5 w-5 text-gray-500 transition-transform group-open:rotate-180 group-open:text-[#040f77] dark:group-open:text-[#fc645f]" />
                     </div>
                   </summary>
                   <div className="border-t border-gray-100 px-6 pb-6 pt-4 dark:border-gray-800">
@@ -153,17 +153,17 @@ export default async function FAQPage({
         </section>
 
         {/* CTA Section */}
-        <section className="bg-gradient-to-r from-blue-600 to-cyan-600 py-16 lg:py-20">
+        <section className="bg-gradient-to-r from-[#040f77] to-[#fc645f] py-16 lg:py-20">
           <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-white sm:text-4xl">
               {dict.faqPage?.stillHaveQuestions}
             </h2>
-            <p className="mt-4 text-lg text-blue-100">
+            <p className="mt-4 text-lg text-white/80">
               {dict.faqPage?.stillHaveQuestionsDesc}
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
               <Link href={`/${locale}/inquiry`}>
-                <Button size="lg" className="w-full bg-white text-blue-600 hover:bg-gray-100 sm:w-auto min-h-[48px]">
+                <Button size="lg" className="w-full bg-white text-[#040f77] hover:bg-gray-100 sm:w-auto min-h-[48px]">
                   {dict.faqPage?.contactUs}
                   <ArrowRight className="h-5 w-5" />
                 </Button>

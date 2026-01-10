@@ -78,11 +78,11 @@
     }
   },
   "about": {
-    "title": "About Keyable Korea",
-    "subtitle": "Your trusted partner for premium Korea experiences",
+    "title": "About Keyable Tour",
+    "subtitle": "Unlock your Journey with us",
     "story": {
       "title": "Our Story",
-      "content": "Founded in Seoul, Keyable Korea specializes in creating unforgettable experiences for international visitors. We combine local expertise with global service standards to deliver personalized travel and medical tourism solutions."
+      "content": "Founded in Seoul, Keyable Tour specializes in creating unforgettable experiences for international visitors. We combine local expertise with global service standards to deliver personalized travel and medical tourism solutions."
     },
     "mission": {
       "title": "Our Mission",
@@ -115,7 +115,7 @@
     }
   },
   "home": {
-    "whyChoose": "Why Choose Keyable Korea?",
+    "whyChoose": "Why Choose Keyable Tour?",
     "whyChooseDesc": "We combine local expertise with global service standards to deliver unforgettable Korea experiences tailored to your needs.",
     "features": {
       "licensed": "Licensed Korean Travel Agency",
@@ -187,13 +187,13 @@
   },
   "notices": {
     "title": "Notices & Updates",
-    "subtitle": "Latest news and announcements from Keyable Korea",
+    "subtitle": "Latest news and announcements from Keyable Tour",
     "readMore": "Read More",
     "backToList": "Back to Notices"
   },
   "footer": {
-    "company": "Keyable Korea",
-    "tagline": "Your Gateway to Korea",
+    "company": "Keyable Tour",
+    "tagline": "Unlock your Journey with us",
     "contact": "Contact Us",
     "quickLinks": "Quick Links",
     "followUs": "Follow Us",
@@ -275,7 +275,7 @@
     "storyExtended": "With deep local knowledge and a passion for hospitality, we are dedicated to helping travelers from Indonesia and around the world discover the beauty of Korea. From bustling Seoul to serene Jeju, from world-class medical facilities to hidden cultural gems, we make every journey memorable.",
     "missionExtended": "We believe that travel should be stress-free and enriching. That's why we handle every detail—from transportation and accommodation to medical appointments and cultural experiences—so you can focus on creating lasting memories.",
     "whyUs": {
-      "title": "Why Keyable Korea?",
+      "title": "Why Keyable Tour?",
       "licensedAgency": "Licensed Agency",
       "licensedAgencyDesc": "Officially registered Korean travel agency",
       "localExpertise": "Local Expertise",

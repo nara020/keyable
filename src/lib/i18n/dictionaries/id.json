@@ -78,11 +78,11 @@
     }
   },
   "about": {
-    "title": "Tentang Keyable Korea",
-    "subtitle": "Mitra terpercaya Anda untuk pengalaman Korea premium",
+    "title": "Tentang Keyable Tour",
+    "subtitle": "Unlock your Journey with us",
     "story": {
       "title": "Cerita Kami",
-      "content": "Didirikan di Seoul, Keyable Korea mengkhususkan diri dalam menciptakan pengalaman tak terlupakan bagi pengunjung internasional. Kami menggabungkan keahlian lokal dengan standar layanan global untuk memberikan solusi perjalanan dan wisata medis yang dipersonalisasi."
+      "content": "Didirikan di Seoul, Keyable Tour mengkhususkan diri dalam menciptakan pengalaman tak terlupakan bagi pengunjung internasional. Kami menggabungkan keahlian lokal dengan standar layanan global untuk memberikan solusi perjalanan dan wisata medis yang dipersonalisasi."
     },
     "mission": {
       "title": "Misi Kami",
@@ -115,7 +115,7 @@
     }
   },
   "home": {
-    "whyChoose": "Mengapa Memilih Keyable Korea?",
+    "whyChoose": "Mengapa Memilih Keyable Tour?",
     "whyChooseDesc": "Kami menggabungkan keahlian lokal dengan standar layanan global untuk memberikan pengalaman Korea yang tak terlupakan sesuai kebutuhan Anda.",
     "features": {
       "licensed": "Agen Perjalanan Korea Berlisensi",
@@ -187,13 +187,13 @@
   },
   "notices": {
     "title": "Pengumuman & Pembaruan",
-    "subtitle": "Berita dan pengumuman terbaru dari Keyable Korea",
+    "subtitle": "Berita dan pengumuman terbaru dari Keyable Tour",
     "readMore": "Baca Selengkapnya",
     "backToList": "Kembali ke Pengumuman"
   },
   "footer": {
-    "company": "Keyable Korea",
-    "tagline": "Gerbang Anda ke Korea",
+    "company": "Keyable Tour",
+    "tagline": "Unlock your Journey with us",
     "contact": "Hubungi Kami",
     "quickLinks": "Tautan Cepat",
     "followUs": "Ikuti Kami",
@@ -275,7 +275,7 @@
     "storyExtended": "Dengan pengetahuan lokal yang mendalam dan semangat pelayanan, kami berkomitmen membantu wisatawan dari Indonesia dan seluruh dunia menemukan keindahan Korea. Dari Seoul yang ramai hingga Jeju yang tenang, dari fasilitas medis kelas dunia hingga permata budaya tersembunyi, kami membuat setiap perjalanan berkesan.",
     "missionExtended": "Kami percaya bahwa perjalanan harus bebas stres dan memperkaya. Itulah mengapa kami menangani setiap detail—dari transportasi dan akomodasi hingga janji medis dan pengalaman budaya—sehingga Anda dapat fokus menciptakan kenangan abadi.",
     "whyUs": {
-      "title": "Mengapa Keyable Korea?",
+      "title": "Mengapa Keyable Tour?",
       "licensedAgency": "Agen Berlisensi",
       "licensedAgencyDesc": "Agen perjalanan Korea yang terdaftar resmi",
       "localExpertise": "Keahlian Lokal",

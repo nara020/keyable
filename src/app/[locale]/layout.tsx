@@ -129,7 +129,7 @@ export default async function LocaleLayout({
         <link rel="icon" href="/icon-192.png" type="image/png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#0ea5e9" />
+        <meta name="theme-color" content="#040f77" />
         <OrganizationSchema />
         <WebsiteSchema />
         <LocalBusinessSchema />

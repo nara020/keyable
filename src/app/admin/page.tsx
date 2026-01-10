@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { MessageSquare, Eye, TrendingUp, Users } from 'lucide-react';
 
 const stats = [
@@ -36,7 +36,7 @@ export default function AdminDashboard() {
   return (
     <div>
       <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-      <p className="mt-2 text-gray-600">Welcome to the Keyable Korea admin panel.</p>
+      <p className="mt-2 text-gray-600">Welcome to the Keyable Tour admin panel.</p>
 
       {/* Stats Grid */}
       <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

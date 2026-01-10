@@ -1,11 +1,11 @@
 {
-  "name": "Keyable Korea",
+  "name": "Keyable Tour",
   "short_name": "Keyable",
   "description": "Premium Korea Travel & Medical Tourism Services",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#0ea5e9",
+  "theme_color": "#040f77",
   "icons": [
     {
       "src": "/icon-192.png",

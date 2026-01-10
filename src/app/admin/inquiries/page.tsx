@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { useState } from 'react';
+import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { RefreshCw, Mail, MessageCircle, Calendar, User, DollarSign } from 'lucide-react';
 
@@ -21,33 +21,42 @@ interface Inquiry {
   status: string;
 }
 
+// Sample data for demo - In production, fetch from API with auth
+const initialInquiries: Inquiry[] = [
+  {
+    id: 'INQ-001',
+    data: {
+      name: 'John Doe',
+      email: 'john@example.com',
+      phone: '+62812345678',
+      preferred_date: '2025-02-15',
+      guests: '2 adults, 1 child',
+      budget: 'premium',
+      service_type: 'private-tour',
+      details: 'Looking for a 5-day Seoul and Jeju tour with K-pop experience.',
+    },
+    created_at: '2024-12-20T10:30:00Z',
+    status: 'pending',
+  },
+];
+
 export default function InquiriesPage() {
-  const [inquiries, setInquiries] = useState<Inquiry[]>([]);
+  const [inquiries, setInquiries] = useState<Inquiry[]>(initialInquiries);
   const [isLoading, setIsLoading] = useState(false);
 
-  // In production, fetch from API with auth
-  // For demo, show sample data
-  const sampleInquiries: Inquiry[] = [
-    {
-      id: 'INQ-001',
-      data: {
-        name: 'John Doe',
-        email: 'john@example.com',
-        phone: '+62812345678',
-        preferred_date: '2025-02-15',
-        guests: '2 adults, 1 child',
-        budget: 'premium',
-        service_type: 'private-tour',
-        details: 'Looking for a 5-day Seoul and Jeju tour with K-pop experience.',
-      },
-      created_at: '2024-12-20T10:30:00Z',
-      status: 'pending',
-    },
-  ];
+  const handleRefresh = async () => {
+    setIsLoading(true);
+    // In production, fetch from API
+    // const response = await fetch('/api/admin/inquiries');
+    // const data = await response.json();
+    // setInquiries(data);
 
-  useEffect(() => {
-    setInquiries(sampleInquiries);
-  }, []);
+    // Simulate API call delay
+    setTimeout(() => {
+      setInquiries(initialInquiries);
+      setIsLoading(false);
+    }, 500);
+  };
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -73,7 +82,7 @@ export default function InquiriesPage() {
           <h1 className="text-3xl font-bold text-gray-900">Inquiries</h1>
           <p className="mt-2 text-gray-600">Manage customer inquiries and requests.</p>
         </div>
-        <Button variant="secondary" onClick={() => setIsLoading(true)}>
+        <Button variant="secondary" onClick={handleRefresh} disabled={isLoading}>
           <RefreshCw className={`h-4 w-4 ${isLoading ? 'animate-spin' : ''}`} />
           Refresh
         </Button>
@@ -146,7 +155,7 @@ export default function InquiriesPage() {
                   <div className="ml-4 flex flex-col gap-2">
                     <a
                       href={`mailto:${inquiry.data.email}`}
-                      className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+                      className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#040f77] px-4 py-2 text-sm font-medium text-white hover:bg-[#0d1b6d]"
                     >
                       <Mail className="h-4 w-4" />
                       Email

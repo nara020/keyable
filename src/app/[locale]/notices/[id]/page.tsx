@@ -290,24 +290,24 @@ export default async function NoticeDetailPage({
 
           {/* Article Content */}
           <article
-            className="prose prose-gray max-w-none dark:prose-invert prose-headings:font-semibold prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4 prose-p:leading-relaxed prose-ul:my-4 prose-li:my-1 prose-a:text-blue-600 prose-li:marker:text-blue-500"
+            className="prose prose-gray max-w-none dark:prose-invert prose-headings:font-semibold prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4 prose-p:leading-relaxed prose-ul:my-4 prose-li:my-1 prose-a:text-[#040f77] prose-li:marker:text-[#fc645f]"
             dangerouslySetInnerHTML={{ __html: content }}
           />
 
           {/* CTA Box */}
-          <Card className="mt-12 overflow-hidden border-0 bg-gradient-to-r from-blue-600 to-cyan-600 shadow-xl">
+          <Card className="mt-12 overflow-hidden border-0 bg-gradient-to-r from-[#040f77] to-[#fc645f] shadow-xl">
             <CardContent className="p-6 sm:p-8 text-center text-white">
               <h3 className="text-xl font-semibold">
                 {locale === 'id' ? 'Tertarik dengan penawaran ini?' : 'Interested in this offer?'}
               </h3>
-              <p className="mt-2 text-blue-100">
+              <p className="mt-2 text-white/80">
                 {locale === 'id'
                   ? 'Hubungi kami untuk informasi lebih lanjut dan penawaran khusus.'
                   : 'Contact us for more information and a personalized quote.'}
               </p>
               <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center">
                 <Link href={`/${locale}/inquiry`}>
-                  <Button className="w-full bg-white text-blue-600 hover:bg-gray-100 sm:w-auto min-h-[48px]">
+                  <Button className="w-full bg-white text-[#040f77] hover:bg-gray-100 sm:w-auto min-h-[48px]">
                     {locale === 'id' ? 'Minta Penawaran' : 'Get a Quote'}
                     <ArrowRight className="h-4 w-4" />
                   </Button>
@@ -354,7 +354,7 @@ export default async function NoticeDetailPage({
                           <Calendar className="h-4 w-4" />
                           {formatDate(relatedNotice.created_at, locale)}
                         </div>
-                        <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-400 transition-colors line-clamp-2">
+                        <h3 className="font-semibold text-gray-900 group-hover:text-[#040f77] dark:text-white dark:group-hover:text-[#fc645f] transition-colors line-clamp-2">
                           {locale === 'id' ? relatedNotice.title_id : relatedNotice.title}
                         </h3>
                       </div>

@@ -33,10 +33,10 @@ export function Header({ locale, dict }: HeaderProps) {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center" aria-label="Keyable Korea - Home">
+          <Link href={`/${locale}`} className="flex items-center" aria-label="Keyable Tour - Home">
             <Image
               src="/images/logo-black.png"
-              alt="Keyable Korea Logo"
+              alt="Keyable Tour Logo"
               width={140}
               height={40}
               className="h-9 w-auto dark:hidden"
@@ -44,7 +44,7 @@ export function Header({ locale, dict }: HeaderProps) {
             />
             <Image
               src="/images/logo-white.png"
-              alt="Keyable Korea Logo"
+              alt="Keyable Tour Logo"
               width={140}
               height={40}
               className="hidden h-9 w-auto dark:block"
@@ -95,7 +95,7 @@ export function Header({ locale, dict }: HeaderProps) {
             {/* CTA Button */}
             <Link
               href={`/${locale}/inquiry`}
-              className="hidden rounded-lg bg-gradient-to-r from-blue-600 to-cyan-600 px-4 py-2 text-sm font-medium text-white shadow-lg transition-all hover:shadow-xl hover:scale-[1.02] sm:inline-flex min-h-[44px] items-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              className="hidden rounded-lg bg-gradient-to-r from-[#040f77] to-[#fc645f] px-4 py-2 text-sm font-medium text-white shadow-lg transition-all hover:shadow-xl hover:scale-[1.02] sm:inline-flex min-h-[44px] items-center focus:outline-none focus:ring-2 focus:ring-[#040f77] focus:ring-offset-2"
             >
               {dict.nav.inquiry}
             </Link>
@@ -135,7 +135,7 @@ export function Header({ locale, dict }: HeaderProps) {
             <Link
               href={`/${locale}/inquiry`}
               onClick={() => setIsMenuOpen(false)}
-              className="mt-2 rounded-lg bg-gradient-to-r from-blue-600 to-cyan-600 px-4 py-3 text-center text-sm font-medium text-white min-h-[48px] flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              className="mt-2 rounded-lg bg-gradient-to-r from-[#040f77] to-[#fc645f] px-4 py-3 text-center text-sm font-medium text-white min-h-[48px] flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-[#040f77] focus:ring-offset-2"
             >
               {dict.nav.inquiry}
             </Link>

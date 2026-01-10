@@ -10,8 +10,8 @@ interface WhatsAppButtonProps {
 
 export function WhatsAppButton({ message, locale = 'en' }: WhatsAppButtonProps) {
   const defaultMessage = locale === 'id'
-    ? 'Halo, saya ingin bertanya tentang layanan Keyable Korea.'
-    : 'Hello, I would like to inquire about Keyable Korea services.';
+    ? 'Halo, saya ingin bertanya tentang layanan Keyable Tour.'
+    : 'Hello, I would like to inquire about Keyable Tour services.';
 
   const whatsappUrl = `https://wa.me/${SITE_CONFIG.whatsapp}?text=${encodeURIComponent(message || defaultMessage)}`;
 

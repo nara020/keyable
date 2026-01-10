@@ -1,13 +1,13 @@
 export const SITE_CONFIG = {
-  name: 'Keyable Korea',
+  name: 'Keyable Tour',
   domain: 'keyable.co.kr',
-  email: 'jinhyeokcc@gmail.com',
-  phone: '+82-10-2216-0058',
-  whatsapp: '821022160058',
+  email: 'kiebble96@gmail.com',
+  phone: '+62 822-2933-9699',
+  whatsapp: '6282229339699',
   address: 'Seoul, South Korea',
   social: {
-    instagram: 'https://instagram.com/keyablekorea',
-    facebook: 'https://facebook.com/keyablekorea',
+    instagram: 'https://instagram.com/keyabletour',
+    facebook: 'https://facebook.com/keyabletour',
   },
 };
 

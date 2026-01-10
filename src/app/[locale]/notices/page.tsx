@@ -126,12 +126,12 @@ export default async function NoticesPage({
                           <Tag className="h-3 w-3" />
                           {categoryLabels[featuredNotice.category as keyof typeof categoryLabels][locale as 'en' | 'id']}
                         </span>
-                        <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 px-3 py-1 text-xs font-medium text-white">
+                        <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-[#040f77] to-[#fc645f] px-3 py-1 text-xs font-medium text-white">
                           <Bell className="h-3 w-3" />
                           {locale === 'id' ? 'Terbaru' : 'Featured'}
                         </span>
                       </div>
-                      <h2 className="text-2xl font-bold text-gray-900 group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-400 transition-colors">
+                      <h2 className="text-2xl font-bold text-gray-900 group-hover:text-[#040f77] dark:text-white dark:group-hover:text-[#fc645f] transition-colors">
                         {locale === 'id' ? featuredNotice.title_id : featuredNotice.title}
                       </h2>
                       <p className="mt-3 text-gray-600 dark:text-gray-400">
@@ -186,13 +186,13 @@ export default async function NoticesPage({
                       </div>
                     </div>
                     <div className="p-6">
-                      <h2 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600 dark:text-white dark:group-hover:text-blue-400 transition-colors line-clamp-2">
+                      <h2 className="text-lg font-semibold text-gray-900 group-hover:text-[#040f77] dark:text-white dark:group-hover:text-[#fc645f] transition-colors line-clamp-2">
                         {locale === 'id' ? notice.title_id : notice.title}
                       </h2>
                       <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 line-clamp-2">
                         {locale === 'id' ? notice.excerpt_id : notice.excerpt}
                       </p>
-                      <div className="mt-4 flex items-center text-sm font-medium text-blue-600 dark:text-blue-400">
+                      <div className="mt-4 flex items-center text-sm font-medium text-[#040f77] dark:text-[#fc645f]">
                         {dict.notices.readMore}
                         <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                       </div>
