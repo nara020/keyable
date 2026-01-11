@@ -63,10 +63,11 @@ export async function generateMetadata({
     },
     metadataBase: new URL(`https://${SITE_CONFIG.domain}`),
     alternates: {
-      canonical: `/${locale}`,
+      canonical: `https://${SITE_CONFIG.domain}/${locale}`,
       languages: {
-        en: '/en',
-        id: '/id',
+        'en': `https://${SITE_CONFIG.domain}/en`,
+        'id': `https://${SITE_CONFIG.domain}/id`,
+        'x-default': `https://${SITE_CONFIG.domain}/en`,
       },
     },
     openGraph: {

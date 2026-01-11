@@ -11,7 +11,7 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { password } = loginSchema.parse(body);
 
-    if (!verifyPassword(password)) {
+    if (!(await verifyPassword(password))) {
       return NextResponse.json(
         { error: 'Invalid password' },
         { status: 401 }
